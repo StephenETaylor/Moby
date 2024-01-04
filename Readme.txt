@@ -11,9 +11,11 @@ the Moby thesaurus.
 
 The overriding idea is to play with synsets as follows:
 	(Moby thesaurus synsets are huge.  There are only 
-	[about 3E4] of them versus
-	[about 2.5E8] words in the thesaurus.
-	thus each synset contains on average 8E4 words. So we'll sample the 
+	[30259, about 3E4] of them versus
+	[2550524, about 2.5E6] words in the thesaurus.
+        [and 103306, about 1E5] distinct words in the vocabulary.
+	thus each synset contains on average 8E1 word, and each word appears
+        in 3.3 synsets. So we'll sample the 
 	synsets drastically to make the job plausible.)
 Consider a word  W with N synsets, of M elements each.
 Then at depth 1, we have a max of NM words.  Some of the words will repeat.
